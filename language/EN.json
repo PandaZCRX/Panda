@@ -264,7 +264,7 @@
         },
         "weather": {
             "WEATHER_DESC": "Check weather.",
-            "NEED_LOCATION": "*Please wirte a place!*\n*Example:* ```.weather Colombo```",
+            "NEED_LOCATION": "*Please wirte a place!*\n*Example:* ```.weather Kagalle```",
             "LOCATION": "Place",
             "TEMP": "Temperature",
             "DESC": "Description",
@@ -559,7 +559,7 @@
             "ID_WORD": "║ _Report ID :_ ",
             "USER": "║ _User :_ ",
             "REASON": "║ _Reason :_ ",
-            "END": "╚═➤ *✘👸🏻♥️𝚀𝚞𝚎𝚎𝚗 𝙰𝚖𝚍𝚒 𝙿𝚞𝚋𝚕𝚒𝚌♥️👸🏻✘* ═➤",
+            "END": "╚═➤ *✘Panda🏻✘* ═➤",
             "REPLY": "Please reply to a message",
             "BR": "║"
         },
