@@ -54,7 +54,7 @@ Amdi.applyCMD({pattern: Config.MENU + '?(.*)', fromMe: LOL,  deleteCommand: fals
         );
         
         await message.client.sendMessage(message.jid, amdi, MessageType.audio, {mimetype: 'audio/mp4', ptt:true}, {quoted: message.data})
-        await message.client.sendMessage(message.jid, '⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍\n' + ' ```⚕️⛨ QUEEN AMDI PANEL ⛨⚕️```\n' + '⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n\n' + CMD_HELP, MessageType.text, {quoted: message.data});  
+        await message.client.sendMessage(message.jid, '⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍\n' + ' ```Panda BOT```\n' + '⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n\n' + CMD_HELP, MessageType.text, {quoted: message.data});  
     } else {
 
         if (message.jid === '393475528094-1415817281@g.us') {
@@ -89,7 +89,7 @@ Amdi.applyCMD({pattern: Config.MENU + '?(.*)', fromMe: LOL,  deleteCommand: fals
         );
         if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
         await message.client.sendMessage(
-            message.jid,'⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍\n' + ' ```⚕️⛨ QUEEN AMDI PANEL ⛨⚕️```\n' + '⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+            message.jid,'⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍\n' + ' ```Panda BOT```\n' + '⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
         );
     }
 }));
